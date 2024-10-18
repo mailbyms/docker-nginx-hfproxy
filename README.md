@@ -6,7 +6,8 @@ nginx 镜像脚本，部署为 Azure 的 webapp 应用，免费中转 huggingfac
 
 ## 步骤：
 
-- 创建自定义 nginx 镜像，增加代理规则
+- 创建自定义 nginx 镜像，增加代理规则，见 Dockerfile
+- 创建镜像 docker build -t xxx/hgproxy .
 - 上传镜像到 docker hub
 - 在 Azure 创建 Web 应用（容器类型的）
   - 填入镜像的名称
