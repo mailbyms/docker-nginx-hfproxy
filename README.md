@@ -35,6 +35,8 @@ nginx 镜像脚本，部署为 Azure 的 webapp 应用，免费中转 huggingfac
 
 ### 访问
 
-使用 azure 给 web 应用自动分配的默认域访问  
+使用 azure 给 web 应用自动分配的默认域访问（形似 xxx .azurewebsites.net）  
 
-形似 xxx .azurewebsites.net
+接口格式按 huggingface 定义，只是域名改为 web 应用的域名
+
+<img src="img\4.png" alt="4" style="zoom:50%;" />
